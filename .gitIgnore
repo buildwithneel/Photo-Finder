@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# FaceFinder private data
+facefinder_config.json
+facefinder_index.sqlite3
+facefinder_index.sqlite3-shm
+facefinder_index.sqlite3-wal
+facefinder_references/
+
+# Personal photos and exports
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.heif
+*.webp
+*.bmp
+*.tif
+*.tiff
+matched_person/
+
+# Ignore all JSON files
+*.json
